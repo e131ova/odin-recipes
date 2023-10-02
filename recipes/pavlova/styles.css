@@ -1,0 +1,129 @@
+* {
+  font-family: cursive, Arial, sans-serif;
+  margin: 0px;
+}
+
+body {
+  height: 100%;
+  background-image: url(../collection-of-recipes/images/backgroundimg.png);
+  background-size: cover;
+  background-attachment: scroll;
+  
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0px;
+
+  width: 100%;
+  height: 150px;
+
+  background-color: white;
+
+  box-shadow: -5px 5px 7px -6px #333;
+}
+
+
+#odin-logo {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+
+  margin-left: 30px;
+}
+
+#contact {
+  margin-right: 30px;
+}
+
+.menu-link {
+  color: rgb(64, 64, 64);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 32, 151);
+}
+
+.menu-link:active {
+  text-decoration: none;
+  color: rgb(255, 32, 151);
+}
+
+h1{
+  font-weight: bold;
+  font-size: 30px;
+}
+ h2{
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 32, 151);
+  margin-bottom: 17px;
+ }
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+  color: black;
+  margin: 70px 200px ;
+  border-radius: 10px;
+
+  padding: 40px;
+
+  font-size: 24px;
+}
+
+.recipe img {
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.recipe p {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: rgb(101, 229, 255);
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-bottom: 40px;
+}
+ol {
+  margin-bottom: 40px;
+}
+
+hr {
+  border: 2px dotted white;
+}
+
+footer {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.odin-link {
+  color: white;
+}

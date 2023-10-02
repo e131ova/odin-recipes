@@ -1,0 +1,123 @@
+* {
+  font-family: cursive, Arial, sans-serif;
+  margin: 0px;
+}
+
+body {
+  height: 100%;
+  background-image: url(../collection-of-recipes/images/backgroundimg.png);
+  background-size: cover;
+  background-attachment: scroll;
+  
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0px;
+
+  width: 100%;
+  height: 150px;
+
+  background-color: white;
+
+  box-shadow: -5px 5px 7px -6px #333;
+}
+
+
+#odin-logo {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+
+  margin-left: 30px;
+}
+
+#contact {
+  margin-right: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 32, 151);
+}
+
+.menu-link {
+  color: rgb(64, 64, 64);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 32, 151);
+}
+
+.menu-link:active {
+  text-decoration: none;
+  color: rgb(255, 32, 151);
+}
+
+h1{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 32, 151);
+  margin-bottom: 17px;
+ }
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+  color: black;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 250px;
+  margin-right: 250px; 
+  border-radius: 10px;
+
+  height: 400px;
+
+  padding: 30px;
+
+  font-size: 24px;
+}
+
+
+.contact-info img {
+  margin-left: 20px;
+  object-fit: cover;
+  object-position: center;
+  height: 60px;
+  width: 60px;
+  margin-top: 45px;
+}
+
+hr {
+  border: 2px dotted white;
+}
+
+footer {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.odin-link {
+  color: white;
+}
